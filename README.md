@@ -21,36 +21,31 @@ Probability-based question prediction
 Visual analytics for better understanding
 Curated YouTube resources for high-importance topics
 
-Features:
-Admin-only upload of question papers
-Subject-wise and year-wise question storage
-Repeated topic and trend analysis
-Graphical visualization of important topics
-Probability-based question prediction (non-guaranteed)
-Desktop application interface
+Key Features
 
-Tech Stack:
+Subject-wise question paper repository
+AI-style topic prediction based on historical trends
+Interactive bar-chart analytics dashboard
+Complete syllabus topic visualization
+Admin panel for paper upload & management
+Modern glassmorphism UI with gradient analytics
+
+Tech Stack
 Frontend
-React.js
-Electron (desktop wrapper)
+React (Vite)
+Tailwind CSS
+Chart.js / Recharts
+React Router
+
 Backend
 FastAPI (Python)
-SQLAlchemy ORM
-Database
-PostgreSQL
-Analytics / AI
-Python (Pandas, Scikit-learn)
-Tools
-VS Code
-Postman
-Git & GitHub
+Postgre SQL / structured storage
+Image upload & static serving
 
-System Architecture (High Level):
-Admin uploads question data
-Backend stores structured data in PostgreSQL
-Analytics engine processes frequency and trends
-Prediction logic ranks high-probability questions
-Frontend displays insights, graphs, and resources
+
+System Architecture
+
+Admin Upload → Backend Storage → Topic Weight Mapping → Prediction Engine → Visual Dashboard → Student Access
 
 Project structure:
 testtrendz/
@@ -77,14 +72,8 @@ Open in browser:
 http://127.0.0.1:8000
 http://127.0.0.1:8000/docs
 
-Project Status:
-✅ Backend setup complete
-✅ Database integration completed
-🚧 Analytics APIs in progress
-🚧 Frontend development in progress
+Initial project setup with React frontend and FastAPI backend
 
-Author:
-Developed a Project to demonstrate full-stack development, data analytics, and practical AI application.
 
 
 Scalable backend architecture
