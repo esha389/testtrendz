@@ -74,6 +74,3 @@ http://127.0.0.1:8000/docs
 
 Initial project setup with React frontend and FastAPI backend
 
-
-
-Scalable backend architecture
