@@ -1,0 +1,14 @@
+// src/services/api.js
+import axios from "axios";
+
+const api = axios.create({
+  baseURL: "http://127.0.0.1:8000",
+});
+
+export const getStudentPapers = (subjectId) =>
+  api.get(`/student/papers/${subjectId}`);
+
+export const getTopicPrediction = (subjectId) =>
+  api.get(`/analytics/topic-analysis/${subjectId}`);
+
+export default api;
